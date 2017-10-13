@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-lg-2">
                   <?php
-                  include ('conexion.php');
+                  include ('inc/conexion.php');
                   $link=conectar();
                   $sql="select * from departamento";
                   $result=mysqli_query($link,$sql) or die ("ERROR en la Consulta $sql".mysqli_error($link));
