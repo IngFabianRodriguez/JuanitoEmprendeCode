@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include ('../inc/conexion.php');
+include ('../conexion.php');
   $link=conectar();
 
   $u=$_REQUEST["usuario"];
@@ -19,13 +19,13 @@ include ('../inc/conexion.php');
 
   echo "<script type='text/javascript'>
     alert('Bienvenido(a) ".$_SESSION['cargo']." ".$_SESSION['nombre']." ".$_SESSION['apellido']. " al sistema');
-    window.location='indexf.php';
+    window.location='../indexf.php';
   </script>";
 
 }else {
   echo "<script type='text/javascript'>
     alert('Ingrese de nuevo usuario y contraseña al sistema');
-    window.location='index.php';
+    window.location='../index.php';
   </script>";
 }
 
