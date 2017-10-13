@@ -34,7 +34,7 @@
             <span>&nbsp;</span>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
-        <a href="../salir.php" class="btn btn-outline-success my-2 my-sm-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+        <a href="../inc/salir.php" class="btn btn-outline-success my-2 my-sm-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
           </div>
       </div>
       </nav>
