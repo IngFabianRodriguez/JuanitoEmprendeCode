@@ -18,7 +18,7 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Juanito Emprende</a>
+            <a class="navbar-brand" href="index.html">Que dicen los hijueputas</a>
           </nav>
         </div>
       </section>
