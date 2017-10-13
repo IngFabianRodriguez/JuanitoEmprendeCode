@@ -10,12 +10,19 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
   </head>
-  <body>
-    <script type="text/javascript">
-    var a =0;
-      if(a==0):alert(a);
-    </script>
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <body class="fondo">
+      <section id="navbar">
+
+      <div class="row-fluid">
+          <nav class="text-center navbar navbar-inverse navbar-toggleable-md navbar-light bg-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Juanito Emprende</a>
+          </nav>
+        </div>
+      </section>
+
     <script src="js/jquery.min.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
