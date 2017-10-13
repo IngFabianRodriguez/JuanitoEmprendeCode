@@ -17,10 +17,23 @@ include ('../conexion.php');
         $_SESSION['apellido']=$row['Apellidos'];
         $_SESSION['cargo']=$row['Cargo'];
 
-  echo "<script type='text/javascript'>
+
+if ($_SESSION['cargo']=="Recepcionista") {
+ echo "<script type='text/javascript'>
     alert('Bienvenido(a) ".$_SESSION['cargo']." ".$_SESSION['nombre']." ".$_SESSION['apellido']. " al sistema');
-    window.location='../indexf.php';
+    window.location='../Recepcion/index.php';
   </script>";
+}elseif ($_SESSION['cargo']=="Funcionario") {
+  echo "<script type='text/javascript'>
+     alert('Bienvenido(a) ".$_SESSION['cargo']." ".$_SESSION['nombre']." ".$_SESSION['apellido']. " al sistema');
+     window.location='../Funcionario/index.php';
+   </script>";
+} elseif ($_SESSION['cargo']=="Patinador") {
+  echo "<script type='text/javascript'>
+     alert('Bienvenido(a) ".$_SESSION['cargo']." ".$_SESSION['nombre']." ".$_SESSION['apellido']. " al sistema');
+     window.location='../Patinador/index.php';
+   </script>";
+}
 
 }else {
   echo "<script type='text/javascript'>

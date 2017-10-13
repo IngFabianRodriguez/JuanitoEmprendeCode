@@ -66,10 +66,10 @@
                     </select>
                 </div>
                 <div class="col-lg-4">
-                  <input class="form-control" type="text" name="fecha" placeholder="Fecha sticker" required/>
+                  <input class="form-control" type="text" name="fecha" placeholder="0000-00-00" required/>
                 </div>
                 <div class="col-lg-4">
-                  <input class="form-control" type="text" name="tipo" placeholder="Consecutivo" required/>
+                  <input class="form-control" type="text" name="tipo" placeholder="00" required/>
                 </div>
               </div>
               <div class="col-lg-12">&nbsp;</div>
