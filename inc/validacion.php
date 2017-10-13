@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include ('conexion.php');
+include ('../inc/conexion.php');
   $link=conectar();
 
   $u=$_REQUEST["usuario"];

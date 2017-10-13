@@ -21,7 +21,7 @@
             <a class="navbar-brand" href="index.php">Juanito Emprende</a>
           </div>
           <div class="col-lg-6">
-            <form class="form-inline" action="validacion.php" method="post">
+            <form class="form-inline" action="inc/validacion.php" method="post">
               <input class="form-control mr-sm-2" type="email" name="usuario" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" placeholder="Correo" required/>
               <input class="form-control mr-sm-2" type="password" name="contraseña" placeholder="Contraseña">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ingresar</button>
