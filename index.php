@@ -18,13 +18,13 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Que dicen los hijueputas</a>
+            <a class="navbar-brand" href="index.html">Juanito Emprende</a>
           </nav>
         </div>
       </section>
 
-    <script src="js/jquery.min.js"></script>
 
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
