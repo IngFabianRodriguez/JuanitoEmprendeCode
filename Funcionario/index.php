@@ -34,8 +34,35 @@
             <span>&nbsp;</span>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
-        <a href="../inc/salir.php" class="btn btn-outline-success my-2 my-sm-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+  <a href="../inc/salir.php" class="btn btn-outline-danger my-2 my-sm-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion <?php echo $_SESSION['cargo'];?></a>
+       </div>
+      </div>
+
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-2">&nbsp;</div>
+          <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="/img" alt="Card image cap" width="350" height="200">
+                  <div class="card-block">
+                      <h4 class="card-title">Bandeja de entrada</h4>
+                      <div class="row">&nbsp;</div>
+                      <a href="bandeja.php" class="btn btn-outline-primary my-2 my-sm-0">Ingresar</a>
+                  </div>
+              </div>
           </div>
+          <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="/img" alt="Card image cap" width="350" height="200">
+                  <div class="card-block">
+                      <h4 class="card-title">Consulta de procesos.</h4>
+                        <div class="row">&nbsp;</div>
+                      <a href="#" class="btn btn-outline-primary my-2 my-sm-0">Ingresar</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-2">&nbsp;</div>
+        </div>
       </div>
       </nav>
     </section>

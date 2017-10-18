@@ -5,5 +5,9 @@ echo "<script type='text/javascript'>
       </script>";
 
 }
-
+function imprimirhora(){
+  $now = time();
+     $_SESSION['hora']=date("H:i:s");
+     $_SESSION['fecha']=date("y/m/d");
+}
  ?>
