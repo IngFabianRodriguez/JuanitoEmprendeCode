@@ -56,7 +56,7 @@
         <?php
         include '../inc/conexion.php';
         $link=conectar();
-        $sql='SELECT * FROM documento,procesos,sticker WHERE documento.idDocumento = sticker.Documento_idDocumento ORDER BY idDocumento DESC';
+        $sql='SELECT * FROM documento,procesos,sticker WHERE documento.idDocumento = sticker.Documento_idDocumento AND sticker.Estado = "Registrada" ORDER BY idDocumento DESC';
         $result=mysqli_query($link,$sql) or die ("ERROR en la Consulta $sql".mysqli_error($link));
 
         ?>
@@ -75,10 +75,11 @@
           <tbody>
             <tr>
               <td><?php echo $r["Codigo_Sticker"]; ?></td>
+              <?php $sticker= $r["Codigo_Sticker"]; ?>
               <td><?php echo $r["Asunto"]; ?></td>
               <td><?php echo $r["Hora_ingreso"]; ?></td>
               <td><?php echo $r["NombreProceso"]; ?></td>
-              <td>  <a href="respuesta.php?Codigo_Sticker=<?php echo $r["Codigo_Sticker"];?>" class="btn btn-sm btn-outline-success">Responder</a><br></td>
+              <td>  <a href="respuesta.php?Codigo_Sticker=<?php echo $sticker;?>" class="btn btn-sm btn-outline-success">Responder</a><br></td>
             </tr>
         <?php
       }

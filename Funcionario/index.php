@@ -37,6 +37,7 @@
   <a href="../inc/salir.php" class="btn btn-outline-danger my-2 my-sm-0"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion <?php echo $_SESSION['cargo'];?></a>
        </div>
       </div>
+      </section>
 
       <div class="jumbotron">
         <div class="row">
@@ -65,6 +66,6 @@
         </div>
       </div>
       </nav>
-    </section>
+    
 </body>
 </html>

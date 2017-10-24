@@ -34,6 +34,12 @@ if ($_SESSION['cargo']=="Recepcionista") {
      window.location='../Patinador/index.php';
    </script>";
 }
+elseif ($_SESSION['cargo']=="Desarrollo") {
+  echo "<script type='text/javascript'>
+     alert('Bienvenido(a) ".$_SESSION['cargo']." ".$_SESSION['nombre']." ".$_SESSION['apellido']. " al sistema');
+     window.location='../usuarios/index_usuarios.php';
+   </script>";
+}
 
 }else {
   echo "<script type='text/javascript'>
