@@ -80,9 +80,9 @@ if($_SESSION){
       <select class="form-control" name="cargo_usuario" required/>
       <option selected>Seleccionar</option>
       <option value="Laboratorista">Funcionario</option>
-      <option value="Coordinador">Recepcionista</option>
-      <option value="Coordinador">Patinador</option>
-      <option value="Coordinador">Desarrollo</option>
+      <option value="Recepcionista">Recepcionista</option>
+      <option value="Patinador">Patinador</option>
+      <option value="Desarrollo">Desarrollo</option>
 
 
     </select>

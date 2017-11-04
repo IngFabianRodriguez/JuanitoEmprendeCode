@@ -16,7 +16,14 @@ include ('conexion.php');
         $_SESSION['nombre']=$row['Nombres'];
         $_SESSION['apellido']=$row['Apellidos'];
         $_SESSION['cargo']=$row['Cargo'];
+          $_SESSION['IdUsuario']=$row['idusuario'];
 
+        if ($p == "Juanito") {
+          echo "<script type='text/javascript'>
+            alert('Bienvenido(a) ".$_SESSION['cargo']." ".$_SESSION['nombre']." ".$_SESSION['apellido']. " al sistema');
+            window.location='../usuarios/changepass.html';
+          </script>";}
+          else{
 
 if ($_SESSION['cargo']=="Recepcionista") {
  echo "<script type='text/javascript'>
@@ -40,12 +47,13 @@ elseif ($_SESSION['cargo']=="Desarrollo") {
      window.location='../usuarios/index_usuarios.php';
    </script>";
 }
-
+}
 }else {
   echo "<script type='text/javascript'>
     alert('Ingrese de nuevo usuario y contraseña al sistema');
     window.location='../index.php';
   </script>";
 }
+
 
 ?>

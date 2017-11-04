@@ -133,7 +133,7 @@ $Correo=$row['Correo'];
         <div class="col-lg-4">&nbsp;</div>
         <div class="col-lg-6">&nbsp;</div>
         <div class="col-lg-2">
-            <a href="/Calle90/salir.php" class="btn btn-primary"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+            <a href="../inc/salir.php" class="btn btn-primary"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
         </div>
     </div>
   </div>
