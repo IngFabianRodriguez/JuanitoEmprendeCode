@@ -47,7 +47,7 @@ $Correo=$row['Correo'];
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/Calle90/administradores/indexadmon.php">Uniminuto</a>
+        <a class="navbar-brand" href="/Calle90/administradores/indexadmon.php">JuanitoEmprende</a>
       </nav>
     </div>
   </section>
@@ -133,7 +133,7 @@ $Correo=$row['Correo'];
         <div class="col-lg-4">&nbsp;</div>
         <div class="col-lg-6">&nbsp;</div>
         <div class="col-lg-2">
-            <a href="/Calle90/salir.php" class="btn btn-primary"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+            <a href="../inc/salir.php" class="btn btn-primary"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
         </div>
     </div>
   </div>

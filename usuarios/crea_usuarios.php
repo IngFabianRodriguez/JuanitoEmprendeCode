@@ -26,7 +26,7 @@ if($_SESSION){
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/Calle90/administradores/indexadmon.php">Uniminuto</a>
+        <a class="navbar-brand" href="../usuarios/index_usuarios.php">JuanitoEmprende</a>
       </nav>
     </div>
   </section>
@@ -80,9 +80,9 @@ if($_SESSION){
       <select class="form-control" name="cargo_usuario" required/>
       <option selected>Seleccionar</option>
       <option value="Laboratorista">Funcionario</option>
-      <option value="Coordinador">Recepcionista</option>
-      <option value="Coordinador">Patinador</option>
-      <option value="Coordinador">Desarrollo</option>
+      <option value="Recepcionista">Recepcionista</option>
+      <option value="Patinador">Patinador</option>
+      <option value="Desarrollo">Desarrollo</option>
 
 
     </select>
@@ -100,16 +100,14 @@ if($_SESSION){
     <div class="col-lg-2">&nbsp;</div>
   </div>
   <div class="row">&nbsp;</div>
-  <div class="row">
-    <div class="col-lg-3">&nbsp;</div>
-    <div class="col-lg-3"><strong>Dirección</strong></div>
-
-<div class="col-lg-4">
-  <input type="text" name="departamento" class="form-control" pattern="" placeholder="Departamento" required/>
-
-</div>
-    <div class="col-lg-2">&nbsp;</div>
+<div class="row">
+  <div class="col-lg-3">&nbsp;</div>
+  <div class="col-lg-3"><strong>Direccion</strong></div>
+  <div class="col-lg-4">
+    <input type="text" name="direccion"  class="form-control" placeholder="Direccion">
   </div>
+  <div class="col-lg-2"></div>
+</div>
   <div class="row">&nbsp;</div>
   <div class="row">
     <div class="col-lg-3">&nbsp;</div>
@@ -126,7 +124,7 @@ if($_SESSION){
     <div class="col-lg-3"><strong>Firma</strong></div>
 
     <div class="col-lg-4">
-      <input type="text" name="Firma" class="form-control" pattern="" placeholder="Firma" required/>
+      <input type="text" name="firma" class="form-control"  placeholder="Firma" required/>
     </div>
     <div class="col-lg-2">&nbsp;</div>
   </div>
@@ -142,7 +140,7 @@ if($_SESSION){
         $sql="select * from departamento";
         $result=mysqli_query($link,$sql) or die ("ERROR en la Consulta $sql".mysqli_error($link));
         ?>
-          <select class="custom-select" name="idDepartamento" required/>
+          <select class="custom-select" name="departamento" required/>
         <?php
          if($result->num_rows>0){?>
             <?php while ($r=$result->fetch_array()){
