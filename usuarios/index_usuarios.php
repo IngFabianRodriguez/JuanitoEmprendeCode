@@ -23,7 +23,7 @@ if ($_SESSION) { ?>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">JuanitoEmprende</a>
+          <a class="navbar-brand" href="index_usuarios.php">JuanitoEmprende</a>
         </nav>
       </div>
     </section>
@@ -41,7 +41,7 @@ if ($_SESSION) { ?>
   <div class="container">
 
   <div class="alert alert-danger text-center" role="alert">
-  <strong>Recuerda!</strong> que cualquier usuario que sea creado va a obtener acceso a operaciones como informacion de elementos y demas de la universidad.
+  <strong>Recuerda!</strong> que cualquier usuario que sea creado va a obtener acceso a operaciones como informacion de elementos y demas de la empresa.
 </div>
 </div>
 </section>
@@ -54,7 +54,7 @@ if ($_SESSION) { ?>
   <h3 class="card-header bg-success">Usuarios</h3>
   <div class="card-block">
     <h4 class="card-title">Crear Usuario</h4>
-    <p class="card-text">En este apartado podras crear los usuarios que suministran insumos a la universidad</p>
+    <p class="card-text">En este apartado podras crear los usuarios que podran radicar documentos</p>
     <a href="../usuarios/crea_usuarios.php" class="btn btn-success">Ingresar</a>
 
   </div>
@@ -78,7 +78,7 @@ if ($_SESSION) { ?>
       <div class="col-lg-4">&nbsp;</div>
       <div class="col-lg-6">&nbsp;</div>
       <div class="col-lg-2">
-        <a href="/Calle90/salir.php" class="btn btn-success"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+        <a href="../inc/salir.php" class="btn btn-success"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
       </div>
     </div>
   </div>
