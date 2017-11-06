@@ -52,7 +52,7 @@ if ($_SESSION) {
         <h5>Para agregar algun usuario ir a el apartado de crear usuario o seguir el siguiente boton</h5>
       </div>
       <div class="col-lg-2">
-        <a href="/Calle90/usuarios/crea_usuarios.php" class="btn btn-primary ">Crear Usuario</a>
+        <a href="crea_usuarios.php" class="btn btn-primary ">Crear Usuario</a>
         </div>
       </div>
     </div>

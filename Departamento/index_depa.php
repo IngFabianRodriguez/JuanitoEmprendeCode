@@ -13,7 +13,7 @@ if ($_SESSION) { ?>
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- fuentes -->
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-<title>Ciudad</title>
+<title>Departamento</title>
   </head>
   <body>
     <section id="navbar">
@@ -23,7 +23,7 @@ if ($_SESSION) { ?>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="../ciudad/index_ciudad.php">JuanitoEmprende</a>
+          <a class="navbar-brand" href="../departamento/index_depa.php">JuanitoEmprende</a>
         </nav>
       </div>
     </section>
@@ -31,7 +31,7 @@ if ($_SESSION) { ?>
 <section id="jumbotron">
 
   <div class="jumbotron bg-success">
-  <h2 class="text-center">Estas en el modulo de control de Ciudades
+  <h2 class="text-center">Estas en el modulo de control de Departamentos
   <?php include 'operaciones.php'; imprimirnombre();?></h2>
   <p class="text-center">A continuacion escoja que desea realizar</p>
   </div>
@@ -48,17 +48,17 @@ if ($_SESSION) { ?>
   <div class="row">
     <div class="col-lg-12">
       <div class="card">
-  <h3 class="card-header bg-success">Ciudad</h3>
+  <h3 class="card-header bg-success">Departamento</h3>
   <div class="card-block">
-    <h4 class="card-title">Crear Ciudad</h4>
-    <p class="card-text">En este apartado podras crear nuevas ciudades</p>
-    <a href="../ciudad/crea_ciudad.php" class="btn btn-success">Ingresar</a>
+    <h4 class="card-title">Crear Departamento</h4>
+    <p class="card-text">En este apartado podras crear nuevos Departamentos</p>
+    <a href="../Departamento/crea_Depa.php" class="btn btn-success">Ingresar</a>
 
   </div>
   <div class="card-block">
-    <h4 class="card-title">Consultar Ciudad</h4>
-    <p class="card-text">En este apartado podra consultar lasa ciudades registradas</p>
-  <a href="../ciudad/consulta_ciudad.php" class="btn btn-success ">Ingresar</a>
+    <h4 class="card-title">Consultar Departamento</h4>
+    <p class="card-text">En este apartado podra consultar los Departamentos registrados</p>
+  <a href="../Departamento/consulta_Depa.php" class="btn btn-success ">Ingresar</a>
   </div>
   </div>
 </div>

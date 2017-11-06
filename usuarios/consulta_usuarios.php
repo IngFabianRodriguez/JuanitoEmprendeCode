@@ -14,7 +14,7 @@ if ($_SESSION) {
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- fuentes -->
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-<title>Consulta Proveedor</title>
+<title>Consulta Usuario</title>
   </head>
   <body>
     <section id="navbar">
@@ -24,7 +24,7 @@ if ($_SESSION) {
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand navbar-left" href="/Calle90/administradores/indexadmon.php">Uniminuto</a>
+          <a class="navbar-brand navbar-left" href="index_usuarios.php">JuantioEmprende</a>
 
         </nav>
       </div>
