@@ -33,9 +33,9 @@ if($_SESSION){
  <section id="jumbotron">
   <div class="jumbotron text-center">
     <h1> Crear Departamento nuevo</h1>
-    <p>Sr.(a) <?php  imprimirNombres()?> podra crear Departamentoe.</p>
+    <p>Sr.(a) <?php  imprimirNombres()?> podra crear Departamentos.</p>
   </div>
-<form class="form-group" action="creacion_Departamento.php" method="post">
+<form class="form-group" action="creacion_depa.php" method="post">
 
 
  </section>
@@ -51,7 +51,7 @@ if($_SESSION){
     </div>
     <div class="col-lg-2">&nbsp;</div>
   </div>
-
+<div class="row">&nbsp;</div>
   <div class="row">
     <div class="col-lg-3">&nbsp;</div>
     <div class="col-lg-3"><strong>Nombre</strong></div>
@@ -65,6 +65,7 @@ if($_SESSION){
     <div class="col-lg-2">&nbsp;</div>
   </div>
   <div class="row">
+    <div class="col-lg-4">&nbsp;</div>
     <div class="col-lg-4">&nbsp;</div>
     <div class="col-lg-4">
       <input type="submit" class="btn btn-primary" value="Crear Departamento">
@@ -93,6 +94,6 @@ if($_SESSION){
 else {
 	echo "<script type='text/javascript'>
 		alert('Ud no ha iniciado sesion. Por favor iniciar una o registrese');
-		window.location='/index.php';
+		window.location='../index.php';
 	</script>";
 } ?>
