@@ -109,6 +109,7 @@ if($result->num_rows>0){
                 <div class="col-lg-4">
                   <input class="form-control" type="date" name="fecha_creacion" value="<?php echo "$fecha"; ?>" required/>
                 </div>
+
               </div>
               <div class="row">&nbsp;</div>
               <div class="row">
@@ -140,10 +141,15 @@ if($result->num_rows>0){
               <div class="row">&nbsp;</div>
               <div class="row">
                 <div class="col-lg-2"><label for=""><strong>Asunto</strong></label></div>
-                <div class="col-lg-10">
+                <div class="col-lg-4">
                   <input type="text" name="asunto" class="form-control" placeholder="Asunto" value="<?php echo "$asunto"; ?>">
                 </div>
-
+                <div class="col-lg-2">
+                  <label for=""><strong>Fecha de respuesta</strong></label>
+                </div>
+                <div class="col-lg-4">
+                  <input class="form-control" type="date" name="fecha_respuesta" value="<?php imprimirhora(); echo $_SESSION['fecha']; ?>" />
+                </div>
               </div>
               <div class="row">&nbsp;</div>
               <div class="row">

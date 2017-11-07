@@ -8,6 +8,6 @@ echo "<script type='text/javascript'>
 function imprimirhora(){
   $now = time();
      $_SESSION['hora']=date("H:i:s");
-     $_SESSION['fecha']=date("y/m/d");
+     $_SESSION['fecha']=date("y-m-d");
 }
  ?>
