@@ -46,13 +46,14 @@
       </div>
     </section>
     <section id="respuesta">
+
       <div class="container">
         <div class="row">&nbsp;</div>
         <div class="row">&nbsp;</div>
         <div class="row">
           <div class="col-lg-3">&nbsp;</div>
           <div class="col-lg-5 text-center">
-            <h1> <?php echo " Respuesta a caso Sticker N° \n".$_GET["Codigo_Sticker"]; $Codigo_Sticker=$_GET["Codigo_Sticker"]?></h1>
+            <h1> <?php echo " Respuesta a caso Sticker N° \n".$_GET["Codigo_Sticker"]; $_SESSION['Codigo_Sticker']=$_GET["Codigo_Sticker"];?></h1>
           </div>
           <div class="col-lg-4">&nbsp;</div>
         </div>
@@ -60,13 +61,14 @@
         <div class="row">&nbsp;</div>
       </div>
       <div class="container">
-        <form class="form-group" method="post" action="" enctype="multipart/form-data">
+        <form class="form-group" method="post" action="cargueresp.php" enctype="multipart/form-data">
 
           <div class="container">
             <div class="row">
               &nbsp;
             </div>
             <?php
+            $Codigo_Sticker=$_GET["Codigo_Sticker"];
 $link=conectar();
 $sql="SELECT * FROM sticker,documento WHERE sticker.Codigo_Sticker='$Codigo_Sticker'";
 $result=mysqli_query($link,$sql) or die ("ERROR en la Consulta $sql".mysqli_error($link));
@@ -147,7 +149,7 @@ if($result->num_rows>0){
               <div class="row">
                 <div class="col-lg-2"><label for=""><strong>Respuesta</strong></label></div>
                 <div class="col-lg-10">
-                  <textarea name="Descripcion" rows="8" cols="112" class="form-control" placeholder="Respuesta del caso"></textarea>
+                  <textarea name="respuesta" rows="8" cols="112" class="form-control" placeholder="Respuesta del caso"></textarea>
                 </div>
               </div>
               <div class="row">&nbsp;</div>

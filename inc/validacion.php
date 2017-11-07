@@ -16,7 +16,8 @@ include ('conexion.php');
         $_SESSION['nombre']=$row['Nombres'];
         $_SESSION['apellido']=$row['Apellidos'];
         $_SESSION['cargo']=$row['Cargo'];
-          $_SESSION['IdUsuario']=$row['idusuario'];
+        $_SESSION['IdUsuario']=$row['idusuario'];
+        $_SESSION['departamento']=$row['Departamento_idDepartamento'];
 
         if ($p == "Juanito") {
           echo "<script type='text/javascript'>
