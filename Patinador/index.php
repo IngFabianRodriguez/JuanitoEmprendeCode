@@ -40,7 +40,24 @@
       </nav>
     </section>
     <section>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-2">&nbsp;</div>
+          <div class="col-lg-8">
+              <div class="card">
+                <img class="card-img-top" src="/img" alt="Card image cap" width="350" height="200">
+                  <div class="card-block text-center">
+                      <h4 class="card-title">Recibir lista de documentos por entregar.</h4>
+                      <div class="row">&nbsp;</div>
+                      <a href="ListaDoc.php" class="btn btn-outline-danger my-2 my-sm-0"><strong>Generar PDF</strong></a>
+                  </div>
+              </div>
 
+          </div>
+
+          <div class="col-lg-2">&nbsp;</div>
+        </div>
+      </div>
     </section>
 </body>
 </html>
