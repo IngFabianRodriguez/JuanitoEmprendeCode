@@ -8,11 +8,11 @@ if ($_SESSION) { ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
     <!-- Estilos -->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
     <!-- fuentes -->
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
 <title>Usuarios</title>
   </head>
   <body>
