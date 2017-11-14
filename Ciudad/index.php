@@ -46,7 +46,7 @@
               <div class="card">
                 <img class="card-img-top" src="/img" alt="Card image cap" width="350" height="200">
                   <div class="card-block">
-                      <h4 class="card-title">Creacion de procesos</h4>
+                      <h4 class="card-title">Creacion de ciudades.</h4>
                       <div class="row">&nbsp;</div>
                       <a href="creacion.php" class="btn btn-outline-primary my-2 my-sm-0">Creacion</a>
                   </div>

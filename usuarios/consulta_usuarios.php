@@ -117,7 +117,7 @@ $result=mysqli_query($link,$sql) or die ("ERROR en la Consulta $sql".mysqli_erro
 	<td><?php echo $r["Correo"]; ?></td>
 
 	<td>
-<?php if ($_SESSION['cargo']=="Desarrollo" || $_SESSION['cargo']=="Coordinador" ) {
+<?php if ($_SESSION['cargo']=="Desarrollo" ) {
    ?>
         <a href="updateusuario.php?idusuario=<?php echo $r["idusuario"];?>" class="btn btn-sm btn-success">Actualizar</a><br>
     		<a href="eliminarusuario.php?idusuario=<?php echo $r["idusuario"];?>" class="btn btn-sm btn-danger">Eliminar</a><br>

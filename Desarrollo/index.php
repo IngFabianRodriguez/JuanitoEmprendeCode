@@ -56,7 +56,7 @@
                     <div class="card-block text-center">
                         <h4 class="card-title">Ciudad.</h4>
                         <div class="row">&nbsp;</div>
-                        <a href="../Ciudad/index_ciudad.php" class="btn btn-outline-success my-2 my-sm-0"><strong>Ingresar</strong></a>
+                        <a href="../Ciudad/index.php" class="btn btn-outline-success my-2 my-sm-0"><strong>Ingresar</strong></a>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                     <div class="card-block text-center">
                         <h4 class="card-title">Departamento.</h4>
                         <div class="row">&nbsp;</div>
-                        <a href="../Departamento/index_depa.php" class="btn btn-outline-success my-2 my-sm-0"><strong>Ingresar</strong></a>
+                        <a href="../Departamento/index.php" class="btn btn-outline-success my-2 my-sm-0"><strong>Ingresar</strong></a>
                     </div>
                 </div>
             </div>
